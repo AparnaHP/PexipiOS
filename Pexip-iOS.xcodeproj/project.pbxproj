@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B903717023EAE6A1008BA7F9 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = B903716D23EAE6A1008BA7F9 /* Call.swift */; };
+		B903717123EAE6A1008BA7F9 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = B903716E23EAE6A1008BA7F9 /* Conference.swift */; };
+		B90C85B923F3B45400F2BEB4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90C85B823F3B45400F2BEB4 /* Colors.swift */; };
+		B90C85BD23F3DE9700F2BEB4 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B90C85BB23F3DE7F00F2BEB4 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B90C85CF23F4A58B00F2BEB4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B90C85D123F4A58B00F2BEB4 /* Localizable.strings */; };
 		B944110523E1636700E75F3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B944110423E1636700E75F3C /* AppDelegate.swift */; };
-		B944110723E1636700E75F3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B944110623E1636700E75F3C /* ViewController.swift */; };
 		B944110A23E1636700E75F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B944110823E1636700E75F3C /* Main.storyboard */; };
 		B944110C23E1636800E75F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B944110B23E1636800E75F3C /* Assets.xcassets */; };
 		B944110F23E1636800E75F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B944110D23E1636800E75F3C /* LaunchScreen.storyboard */; };
 		B944111A23E1636800E75F3C /* Pexip_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B944111923E1636800E75F3C /* Pexip_iOSTests.swift */; };
 		B944112523E1636800E75F3C /* Pexip_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B944112423E1636800E75F3C /* Pexip_iOSUITests.swift */; };
+		B95BF6FC23F2C13D0032E728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BF6FB23F2C13D0032E728 /* ViewController.swift */; };
+		B9E9091823ED80180009F512 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B944113D23E1708F00E75F3C /* WebKit.framework */; };
+		B9FFD1472409A6CE0009870B /* CallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFD1462409A6CE0009870B /* CallController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +40,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B99E7CDA23EAFD65003291E6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B90C85BD23F3DE9700F2BEB4 /* WebRTC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B903716D23EAE6A1008BA7F9 /* Call.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		B903716E23EAE6A1008BA7F9 /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
+		B90C85B823F3B45400F2BEB4 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B90C85BB23F3DE7F00F2BEB4 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		B90C85D023F4A58B00F2BEB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B90C85D223F4A59000F2BEB4 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B944110123E1636700E75F3C /* Pexip-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pexip-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B944110423E1636700E75F3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B944110623E1636700E75F3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B944110923E1636700E75F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B944110B23E1636800E75F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B944110E23E1636800E75F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,9 @@
 		B944112023E1636800E75F3C /* Pexip-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pexip-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B944112423E1636800E75F3C /* Pexip_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pexip_iOSUITests.swift; sourceTree = "<group>"; };
 		B944112623E1636800E75F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B944113D23E1708F00E75F3C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B95BF6FB23F2C13D0032E728 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9FFD1462409A6CE0009870B /* CallController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E9091823ED80180009F512 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +104,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B90C85B723F3B43800F2BEB4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B90C85B823F3B45400F2BEB4 /* Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		B94410F823E1636700E75F3C = {
 			isa = PBXGroup;
 			children = (
+				B90C85BB23F3DE7F00F2BEB4 /* WebRTC.framework */,
 				B944110323E1636700E75F3C /* Pexip-iOS */,
+				B90C85D123F4A58B00F2BEB4 /* Localizable.strings */,
 				B944111823E1636800E75F3C /* Pexip-iOSTests */,
 				B944112323E1636800E75F3C /* Pexip-iOSUITests */,
 				B944110223E1636700E75F3C /* Products */,
+				B944113C23E1708F00E75F3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +138,12 @@
 		B944110323E1636700E75F3C /* Pexip-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				B90C85B723F3B43800F2BEB4 /* Helpers */,
+				B95BF6FB23F2C13D0032E728 /* ViewController.swift */,
+				B9FFD1462409A6CE0009870B /* CallController.swift */,
+				B903716D23EAE6A1008BA7F9 /* Call.swift */,
+				B903716E23EAE6A1008BA7F9 /* Conference.swift */,
 				B944110423E1636700E75F3C /* AppDelegate.swift */,
-				B944110623E1636700E75F3C /* ViewController.swift */,
 				B944110823E1636700E75F3C /* Main.storyboard */,
 				B944110B23E1636800E75F3C /* Assets.xcassets */,
 				B944110D23E1636800E75F3C /* LaunchScreen.storyboard */,
@@ -125,6 +170,14 @@
 			path = "Pexip-iOSUITests";
 			sourceTree = "<group>";
 		};
+		B944113C23E1708F00E75F3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B944113D23E1708F00E75F3C /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +188,7 @@
 				B94410FD23E1636700E75F3C /* Sources */,
 				B94410FE23E1636700E75F3C /* Frameworks */,
 				B94410FF23E1636700E75F3C /* Resources */,
+				B99E7CDA23EAFD65003291E6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +247,7 @@
 				TargetAttributes = {
 					B944110023E1636700E75F3C = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					B944111423E1636800E75F3C = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -211,6 +266,7 @@
 			knownRegions = (
 				en,
 				Base,
+				sv,
 			);
 			mainGroup = B94410F823E1636700E75F3C;
 			productRefGroup = B944110223E1636700E75F3C /* Products */;
@@ -229,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90C85CF23F4A58B00F2BEB4 /* Localizable.strings in Resources */,
 				B944110F23E1636800E75F3C /* LaunchScreen.storyboard in Resources */,
 				B944110C23E1636800E75F3C /* Assets.xcassets in Resources */,
 				B944110A23E1636700E75F3C /* Main.storyboard in Resources */,
@@ -256,7 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B944110723E1636700E75F3C /* ViewController.swift in Sources */,
+				B95BF6FC23F2C13D0032E728 /* ViewController.swift in Sources */,
+				B90C85B923F3B45400F2BEB4 /* Colors.swift in Sources */,
+				B9FFD1472409A6CE0009870B /* CallController.swift in Sources */,
+				B903717023EAE6A1008BA7F9 /* Call.swift in Sources */,
+				B903717123EAE6A1008BA7F9 /* Conference.swift in Sources */,
 				B944110523E1636700E75F3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +354,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B90C85D123F4A58B00F2BEB4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90C85D023F4A58B00F2BEB4 /* en */,
+				B90C85D223F4A59000F2BEB4 /* sv */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		B944110823E1636700E75F3C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,17 +502,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5R32U2P9LA;
+				DEVELOPMENT_TEAM = H49HCJQSDG;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Pexip-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ap.Pexip-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap.test.pexip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -450,17 +530,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5R32U2P9LA;
+				DEVELOPMENT_TEAM = H49HCJQSDG;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Pexip-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ap.Pexip-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap.test.pexip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Release;
 		};

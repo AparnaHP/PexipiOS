@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Pexip-iOS
-//
-//  Created by Aparna Prasad on 1/29/20.
-//  Copyright © 2020 Aparna Prasad. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
